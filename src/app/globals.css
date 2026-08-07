@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant light (&:where(.light, .light *));
+
+@theme inline {
+  /* Dark mode defaults */
+  --color-background: #0b1120;
+  --color-surface: #111827;
+  --color-heading: #f9fafb;
+  --color-text: #94a3b8;
+  --color-accent: #38bdf8;
+  --color-accent-hover: #0ea5e9;
+  --color-border: rgb(255 255 255 / 0.1);
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+/* Light mode palette */
+.light {
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+  --color-heading: #0f172a;
+  --color-text: #475569;
+  --color-accent: #0284c7;
+  --color-accent-hover: #0369a1;
+  --color-border: #e2e8f0;
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-error: #dc2626;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-text antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  ::selection {
+    @apply bg-accent/30 text-heading;
+  }
+
+  .light ::selection {
+    @apply bg-accent/20 text-heading;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply border border-border bg-surface/60 backdrop-blur-xl;
+  }
+
+  .light .glass {
+    @apply border-border bg-surface/90 shadow-sm shadow-slate-200/50;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-accent via-sky-300 to-accent-hover bg-clip-text text-transparent;
+  }
+
+  .light .gradient-text {
+    @apply from-accent via-sky-500 to-accent-hover;
+  }
+
+  .section-padding {
+    @apply px-6 py-20 md:px-12 lg:px-24;
+  }
+
+  .glow-accent {
+    box-shadow: 0 0 40px -10px rgba(56, 189, 248, 0.35);
+  }
+
+  .light .glow-accent {
+    box-shadow: 0 0 40px -10px rgba(2, 132, 199, 0.2);
+  }
+
+  .page-gradient {
+    background: radial-gradient(
+      ellipse at top,
+      rgba(56, 189, 248, 0.06) 0%,
+      transparent 50%
+    );
+  }
+
+  .light .page-gradient {
+    background: radial-gradient(
+      ellipse at top,
+      rgba(2, 132, 199, 0.08) 0%,
+      transparent 55%
+    );
+  }
+}
