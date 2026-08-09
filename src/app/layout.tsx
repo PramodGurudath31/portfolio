@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import { Sidebar } from "@/components/layout/Sidebar";
+import { Providers } from "@/components/layout/Providers";
 import { profile } from "@/data/profile";
 import "./globals.css";
 
@@ -41,12 +42,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="light">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased`}
       >
-        <Sidebar />
-        <div className="lg:pl-[280px]">{children}</div>
+        <Providers>
+          <Sidebar />
+          <div className="lg:pl-[280px]">{children}</div>
+        </Providers>
       </body>
     </html>
   );

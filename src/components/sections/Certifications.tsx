@@ -30,7 +30,7 @@ export function Certifications() {
                 <p className="text-sm text-text">
                   {cert.issuer}
                 </p>
-                <span className="mt-1 inline-block font-mono text-xs text-accent/70">
+                <span className="mt-1 inline-block font-mono text-xs text-muted">
                   {cert.category}
                 </span>
               </div>

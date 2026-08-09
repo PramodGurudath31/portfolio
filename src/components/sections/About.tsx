@@ -26,7 +26,7 @@ export function About() {
               embedding quality through CI/CD integration, and leading global QA
               teams to deliver secure, scalable, and high-performing AI-powered
               solutions using technologies such as Genesys Cloud, Azure,
-              Deepgram, and AKKA.
+              Deepgram, and AKKA.    
             </p>
           </GlassCard>
         </AnimatedItem>
@@ -46,7 +46,7 @@ export function About() {
               ))}
             </ul>
             <div className="mt-6 border-t border-border pt-4">
-              <p className="text-xs text-text/60">Education</p>
+              <p className="text-xs text-muted">Education</p>
               <p className="mt-1 text-sm font-medium text-heading">
                 {education.degree}
               </p>

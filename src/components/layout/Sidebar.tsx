@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Mail, FileDown, Menu, X } from "lucide-react";
 import { LinkedInIcon } from "@/components/ui/LinkedInIcon";
 import { navLinks, profile } from "@/data/profile";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import { cn } from "@/lib/utils";
 
 export function Sidebar() {
@@ -60,7 +61,7 @@ export function Sidebar() {
                   <span
                     className={cn(
                       "font-mono text-xs transition-all",
-                      isActive ? "text-accent" : "text-text/60 group-hover:text-accent"
+                      isActive ? "text-accent" : "text-muted group-hover:text-accent"
                     )}
                   >
                     {String(navLinks.indexOf(link) + 1).padStart(2, "0")}.
@@ -99,6 +100,7 @@ export function Sidebar() {
           >
             <FileDown size={20} />
           </a>
+          <ThemeToggle />
         </div>
       </div>
     </>
@@ -111,13 +113,16 @@ export function Sidebar() {
         <a href="#" className="font-mono text-xl font-bold text-heading">
           PG
         </a>
-        <button
+        <div className="flex items-center gap-3">
+          <ThemeToggle />
+          <button
           onClick={() => setMobileOpen(!mobileOpen)}
           className="text-heading"
           aria-label="Toggle menu"
         >
             {mobileOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+          </button>
+        </div>
       </header>
 
       {/* Mobile menu overlay */}

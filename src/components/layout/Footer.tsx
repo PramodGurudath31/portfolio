@@ -8,7 +8,7 @@ export function Footer() {
         <span className="text-accent">{profile.name}</span>. Built with Next.js,
         TypeScript & Tailwind CSS.
       </p>
-      <p className="mt-2 text-xs text-text/60">
+      <p className="mt-2 text-xs text-muted">
         © {new Date().getFullYear()} All rights reserved.
       </p>
     </footer>

@@ -3,35 +3,32 @@
 @custom-variant dark (&:where(.dark, .dark *));
 @custom-variant light (&:where(.light, .light *));
 
-@theme inline {
-  /* Dark mode defaults */
+/* Use @theme without "inline" so utilities reference CSS variables at runtime */
+@theme {
   --color-background: #0b1120;
   --color-surface: #111827;
-  --color-heading: #f9fafb;
-  --color-text: #94a3b8;
+  --color-elevated: #1e293b;
+  --color-heading: #f8fafc;
+  --color-text: #cbd5e1;
+  --color-muted: #94a3b8;
   --color-accent: #38bdf8;
   --color-accent-hover: #0ea5e9;
-  --color-border: rgb(255 255 255 / 0.1);
-  --color-success: #22c55e;
-  --color-warning: #f59e0b;
-  --color-error: #ef4444;
+  --color-border: #1e293b;
 
   --font-sans: var(--font-inter);
   --font-mono: var(--font-jetbrains-mono);
 }
 
-/* Light mode palette */
 .light {
   --color-background: #f8fafc;
   --color-surface: #ffffff;
+  --color-elevated: #f1f5f9;
   --color-heading: #0f172a;
-  --color-text: #475569;
+  --color-text: #334155;
+  --color-muted: #64748b;
   --color-accent: #0284c7;
   --color-accent-hover: #0369a1;
   --color-border: #e2e8f0;
-  --color-success: #16a34a;
-  --color-warning: #d97706;
-  --color-error: #dc2626;
 }
 
 @layer base {
@@ -55,11 +52,11 @@
 
 @layer utilities {
   .glass {
-    @apply border border-border bg-surface/60 backdrop-blur-xl;
+    @apply border border-border bg-surface/80 backdrop-blur-xl;
   }
 
   .light .glass {
-    @apply border-border bg-surface/90 shadow-sm shadow-slate-200/50;
+    @apply bg-surface/90 shadow-sm shadow-slate-200/50;
   }
 
   .gradient-text {

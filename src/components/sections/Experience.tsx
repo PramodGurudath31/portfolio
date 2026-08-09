@@ -36,7 +36,7 @@ export function Experience() {
                     </h3>
                     <p className="text-accent">{job.company}</p>
                   </div>
-                  <span className="shrink-0 font-mono text-xs text-text/70">
+                  <span className="shrink-0 font-mono text-xs dark:text-white light:text-black">
                     {job.period}
                   </span>
                 </div>

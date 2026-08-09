@@ -140,6 +140,41 @@ export const projects = [
   },
 ];
 
+export const automationProjects = [
+  {
+    id: "cypress-e2e",
+    title: "Cypress E2E Framework",
+    description:
+      "Enterprise-grade end-to-end automation framework built with Cypress — featuring reusable page objects, custom commands, API intercepts, and GitLab CI/CD integration for reliable web regression at scale.",
+    tags: ["Cypress", "E2E", "TypeScript", "Page Objects"],
+    href: "#",
+  },
+  {
+    id: "appium-tdd",
+    title: "Appium TDD Framework",
+    description:
+      "Mobile test automation framework using Appium with a test-driven development approach — covering iOS and Android flows, device farm integration, and structured test design for cross-platform coverage.",
+    tags: ["Appium", "TDD", "Mobile", "iOS & Android"],
+    href: "#",
+  },
+  {
+    id: "python-behave-bdd",
+    title: "Python Behave BDD",
+    description:
+      "Behavior-driven test suite using Python Behave and Gherkin feature files — enabling readable scenarios, reusable step definitions, and collaborative test authoring across QA and engineering teams.",
+    tags: ["Behave", "BDD", "Python", "Gherkin"],
+    href: "#",
+  },
+  {
+    id: "playwright-bdd",
+    title: "Playwright BDD",
+    description:
+      "Playwright-based BDD automation framework with structured step definitions and parallel execution — delivering fast, reliable web regression across modern browser environments.",
+    tags: ["Playwright", "BDD", "TypeScript", "Parallel Execution"],
+    href: "#",
+  },
+];
+
 export const skillCategories = [
   {
     title: "Automation",
@@ -183,34 +218,19 @@ export const skillCategories = [
 
 export const certifications = [
   {
-    title: "Professional Scrum Master (PSM)",
+    title: "Professional Scrum Master",
     issuer: "Scrum.org",
     category: "Agile Leadership",
   },
   {
-    title: "Generative AI Testing",
-    issuer: "Specialized Training",
-    category: "AI & GenAI",
+    title: "ISTQB Foundation Level",
+    issuer: "ISTQB",
+    category: "Software Testing",
   },
   {
-    title: "Adaptive SLM Testing",
-    issuer: "Specialized Training",
-    category: "AI & GenAI",
-  },
-  {
-    title: "AI Model Evaluation & Scorecard Development",
-    issuer: "Specialized Training",
-    category: "AI & GenAI",
-  },
-  {
-    title: "Red Teaming & Adversarial Testing",
-    issuer: "Specialized Training",
-    category: "AI Security",
-  },
-  {
-    title: "Voicebot & Chatbot Testing",
-    issuer: "Specialized Training",
-    category: "Conversational AI",
+    title: "ISTQB CT-AI",
+    issuer: "ISTQB",
+    category: "AI Testing",
   },
 ];
 

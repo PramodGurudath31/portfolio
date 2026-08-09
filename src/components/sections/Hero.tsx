@@ -33,7 +33,7 @@ export function Hero() {
           className="mb-4 text-5xl font-bold tracking-tight text-heading md:text-7xl"
         >
           {profile.name.split(" ")[0]}{" "}
-          <span className="gradient-text">{profile.name.split(" ")[1]}</span>.
+          <span className="gradient-text">{profile.name.split(" ")[1]}</span>
         </motion.h1>
 
         <motion.h2
@@ -42,8 +42,8 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mb-6 text-3xl font-semibold text-text md:text-5xl"
         >
-          I ensure AI products ship with{" "}
-          <span className="text-heading">confidence</span>.
+          I build quality into AI products{" "}
+          <span className="text-heading"></span>
         </motion.h2>
 
         <motion.p
