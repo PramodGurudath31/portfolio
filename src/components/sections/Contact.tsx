@@ -22,7 +22,7 @@ export function Contact() {
         <GlassCard hover={false} className="mx-auto max-w-2xl text-center">
           <p className="mb-8 text-lg leading-relaxed text-text">
             Whether you have a question about quality engineering, AI validation,
-            or just want to connect — my inbox is always open. I&apos;ll do my
+            or just want to connect - my inbox is always open. I&apos;ll do my
             best to get back to you!
           </p>
 
