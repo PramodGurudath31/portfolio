@@ -22,7 +22,7 @@ export const profile = {
     "96% automation coverage with Cypress & Playwright",
     "98.6% reduction in test execution time",
     "Leading QA for Generative AI & Voicebot platforms",
-    "13+ years across Deloitte, Amazon, Zeta & more",
+    "13+ years across Deloitte, Amazon & Zeta",
   ],
 };
 
@@ -35,12 +35,12 @@ export const experience = [
     description:
       "Leading enterprise automation and AI quality strategy for GenAI solutions including Voicebots, Chatbots, and Smart Document Analyzers.",
     highlights: [
-      "Built automation frameworks with Cypress and Playwright achieving 96% coverage",
-      "Reduced test execution time by 98.6% and regression cycles by 70%",
-      "Integrated testing into GitLab CI/CD with Shift-Left practices",
-      "Defined AI testing strategies, scorecards, and benchmark validation",
-      "Executed Voicebot testing via Genesys Cloud and Adaptive SLM validation",
-      "Performed AI robustness testing including red teaming and adversarial testing",
+      "Built automation frameworks with Cypress and Playwright achieving 96% coverage.",
+      "Reduced test execution time by 98.6% and regression cycles by 70%.",
+      "Integrated testing into GitLab CI/CD with Shift-Left practices.",
+      "Defined AI testing strategies, scorecards, and benchmark validation.",
+      "Executed Voicebot testing via Genesys Cloud and Adaptive SLM validation.",
+      "Performed AI robustness testing including red teaming and adversarial testing.",
     ],
     tech: ["Playwright", "Cypress", "GitLab CI/CD", "Genesys Cloud", "Azure", "Deepgram"],
   },
@@ -52,10 +52,10 @@ export const experience = [
     description:
       "Led QA transformation initiatives and automation POCs across enterprise web and API platforms.",
     highlights: [
-      "Converted manual test cases to automated scripts, reducing cost/time by 20%",
-      "Created robust test plans from functional specification documents",
-      "Developed Robot Framework POCs for web and API automation",
-      "Boosted team productivity by 45% through cross-functional QA alignment",
+      "Converted manual test cases to automated scripts, reducing cost/time by 20%.",
+      "Created robust test plans from functional specification documents.",
+      "Developed Robot Framework POCs for web and API automation.",
+      "Boosted team productivity by 45% through cross-functional QA alignment.",
     ],
     tech: ["Robot Framework", "Selenium", "API Testing", "Test Planning"],
   },
@@ -67,9 +67,9 @@ export const experience = [
     description:
       "Dual role developing Vue.js applications while driving web and mobile QA excellence.",
     highlights: [
-      "Developed web applications using Vue.js with strong architecture understanding",
-      "Designed and executed web & mobile testing with root cause analysis",
-      "Supported CI/CD integration improving release efficiency by 60%",
+      "Developed web applications using Vue.js with strong architecture understanding.",
+      "Designed and executed web & mobile testing with root cause analysis.",
+      "Supported CI/CD integration improving release efficiency by 60%.",
     ],
     tech: ["Vue.js", "JavaScript", "Mobile Testing", "CI/CD"],
   },
@@ -81,9 +81,9 @@ export const experience = [
     description:
       "Led functional, localization, and media testing for Amazon devices across global markets.",
     highlights: [
-      "Led functional, localization, and media testing across multiple markets",
-      "Validated media playback, performance, and QoS metrics",
-      "Collaborated with cross-functional teams on defect analysis and RCA",
+      "Led functional, localization, and media testing across multiple markets.",
+      "Validated media playback, performance, and QoS metrics.",
+      "Collaborated with cross-functional teams on defect analysis and RCA.",
     ],
     tech: ["Functional Testing", "Localization", "Media QA", "Performance"],
   },
