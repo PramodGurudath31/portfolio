@@ -222,16 +222,6 @@ export const certifications = [
     issuer: "Scrum.org",
     category: "Agile Leadership",
   },
-  {
-    title: "ISTQB Foundation Level",
-    issuer: "ISTQB",
-    category: "Software Testing",
-  },
-  {
-    title: "ISTQB CT-AI",
-    issuer: "ISTQB",
-    category: "AI Testing",
-  },
 ];
 
 export const education = {
