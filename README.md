@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pramod Gurudath — Portfolio
 
 A premium modern portfolio website built with Next.js 15, TypeScript, Tailwind CSS, and Framer Motion.
@@ -62,3 +63,7 @@ src/
 - `npm run build` — Production build
 - `npm run start` — Start production server
 - `npm run lint` — Run ESLint
+=======
+# portfolio
+This is my portfolio repo
+>>>>>>> a5fc575dadf00af44a70e160c52fa437df729728

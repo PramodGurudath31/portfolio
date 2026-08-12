@@ -221,7 +221,7 @@ export const certifications = [
     title: "Professional Scrum Master",
     issuer: "Scrum.org",
     category: "Agile Leadership",
-  },
+  }
 ];
 
 export const education = {
