@@ -15,7 +15,7 @@ export const profile = {
   phone: "+1 (647) 685-9364",
   linkedin: "https://linkedin.com/in/pramodgurudath",
   location: "Canada",
-  resumePath: "/resume.pdf",
+  resumePath: "/Pramod Gurudath.pdf",
   summary:
     "Senior QA Automation Engineer and QA Lead with 13+ years of experience driving quality engineering across Web, Mobile, API, Cloud, and AI-powered platforms. Currently leading QA strategy for Generative AI solutions, including Voicebots, Chatbots, and Smart Document Analyzer applications. Experienced in validating AI models through scorecard design, benchmark analysis, prompt evaluation, and functional testing of Adaptive SLMs to ensure reliable, accurate, and production-ready AI experiences.",
   highlights: [
