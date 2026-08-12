@@ -211,7 +211,7 @@ export const skillCategories = [
     skills: ["Genesys Cloud", "Deepgram", "AKKA", "Adaptive SLM Models"],
   },
   {
-    title: "AI-Assisted Dev",
+    title: "Gen AI Tools",
     skills: ["Copilot", "Cursor AI", "Gemini", "ChatGPT"],
   },
 ];
