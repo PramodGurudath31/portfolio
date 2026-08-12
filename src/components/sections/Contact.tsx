@@ -15,7 +15,7 @@ export function Contact() {
         id="contact"
         number="06"
         title="Get In Touch"
-        subtitle="Open to discussing QA leadership, AI testing strategy, or automation architecture."
+        subtitle="Open to discussing QA leadership, AI testing strategy, or Automation Architecture."
       />
 
       <AnimatedItem>
