@@ -88,7 +88,6 @@ export function Hero() {
         className="absolute bottom-8 left-1/2 -translate-x-1/2 text-accent animate-bounce"
         aria-label="Scroll to about section"
       >
-        <ArrowDown size={24} />
       </motion.a>
     </section>
   );
